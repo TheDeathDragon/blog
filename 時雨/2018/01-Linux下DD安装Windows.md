@@ -20,7 +20,7 @@ tags:
 
 **1、安装 gawk sed grep**
 
-```BASH
+```bash
 #Debian/Ubuntu:
 apt-get install -y gawk sed grep
 #RedHat/CentOS:
@@ -29,7 +29,7 @@ yum install -y gawk sed grep
 
 如果报错，请先检查更新再重试：
 
-```BASH
+```bash
 #Debian/Ubuntu:
 apt-get update
 #RedHat/CentOS:
@@ -38,7 +38,7 @@ yum update
 
 **2、无DHCP时额外需求：iconv**
 
-```BASH
+```bash
 #Debian/Ubuntu
 ## 一般自带
 #RedHat/CentOS
@@ -50,7 +50,7 @@ yum install glibc-common
 
 **1、Lolico**
 
-```BASH
+```bash
 # Windows server 2008 R2 Standard 中文版
 # 2.9G（解压后8G） KVM 未激活 全新安装 已经过测试可用
 http://nico-ni.co/dd/Win2008R2Standard-x64.gz
@@ -63,7 +63,7 @@ http://nico-ni.co/dd/Win2008R2Standard-x64.gz
 
 **2、萌咖**
 
-```BASH
+```bash
 # Windows 7 Embedded Standard x86 (Thin PC)
 # 1.19G KVM XEN 已激活
 https://moeclub.org/get-win7embx86-auto
@@ -76,7 +76,7 @@ https://moeclub.org/get-win8embx64-auto
 
 **3、Joodle**
 
-```BASH
+```bash
 # Windows server 2008 R2
 http://down.80host.com/iso/dd/WS2008R2Enterprise-Joodle-Template.gz
 # Windows server 2012 R2
@@ -91,7 +91,7 @@ http://down.80host.com/iso/dd/Windows8.1-Joodle-Template.gz
 
 **4、WhatUpTime**
 
-```BASH
+```bash
 # Windows 7 Enterprise x64
 http://mirror.whatuptime.com/besw26/7.ENT.EVAL.64.VIRTIO-SCSI.gz
 http://down.80host.com/iso/dd/7.ENT.EVAL.64.VIRTIO-SCSI.gz
@@ -103,7 +103,7 @@ http://down.80host.com/iso/dd/7.ENT.EVAL.64.VIRTIO-SCSI.gz
 
 补充：有次续费80Host的机器，刚好碰上活动，80Host还寄了麻辣兔头给我，抽真空的包装。不过我是真的接收不了，所以给别人吃了。
 
-```BASH
+```bash
 # Windows 7
 # 支持OVH VPS的scsi磁盘驱动，其他viostor的DD包在上面会蓝屏
 http://down.80host.com/iso/dd/win7_cn_5gb_virtio_scsi.gz
@@ -119,7 +119,7 @@ http://down.80host.com/iso/dd/cn2003-virtio-pass-Linode.gz
 
 **6、yxz**
 
-```BASH
+```bash
 # Windows server 2003 for Kimsufi
 http://down.80host.com/iso/dd/Kimsufi2003.gz
 # Username: Administrator
@@ -128,7 +128,7 @@ http://down.80host.com/iso/dd/Kimsufi2003.gz
 
 **7、Laiboke**
 
-```BASH
+```bash
 # Windows server 2012 R2 中文版
 http://down.80host.com/iso/dd/Win2012R2ZW.gz
 # Username: Administrator
