@@ -1,7 +1,7 @@
 ---
 title: Hexo 在 Windows 下的搭建与基本操作
 date: 2019-05-13 21:19:00
-category: 技术向
+category: 折腾笔记
 tags:
   - Hexo
 ---

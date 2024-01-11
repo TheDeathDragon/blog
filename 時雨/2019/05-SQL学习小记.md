@@ -1,7 +1,7 @@
 ---
 title: SQL学习小记
 date: 2019-09-12 22:45:00
-category: 分享境
+category: 学习笔记
 tags:
   - SQL
 ---

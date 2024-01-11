@@ -1,7 +1,7 @@
 ---
 title: Nginx 编译启用谷歌 Brotli 高级压缩算法
 date: 2018-10-06 21:37:00
-category: 技术向
+category: 折腾笔记
 tags:
   - Nginx
   - Linux

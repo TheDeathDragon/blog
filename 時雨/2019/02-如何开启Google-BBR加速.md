@@ -1,7 +1,7 @@
 ---
 title: 如何开启 Google BBR 加速
 date: 2019-04-11 08:46:00
-category: 技术向
+category: 折腾笔记
 tags:
   - Nginx
   - CentOS
@@ -20,7 +20,8 @@ BBR 解决了两个问题：
 
 项目地址 : [https://github.com/google/bbr](https://github.com/google/bbr)
 
-![[IMAGES/如何开启-Google-BBR-加速/Google-BBR.webp]]
+![Google-BBR](/IMAGES/如何开启-Google-BBR-加速/Google-BBR.webp)
+
 ## 升级内核
 
 开启 BBR 要求 4.10 以上版本 Linux 内核，可使用如下命令查看当前内核版本：

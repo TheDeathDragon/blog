@@ -1,7 +1,7 @@
 ---
 title: Linux 下 DD 安装 Windows
 date: 2018-09-17 08:00:00
-category: 技术向
+category: 折腾笔记
 tags:
   - CentOS
 ---
