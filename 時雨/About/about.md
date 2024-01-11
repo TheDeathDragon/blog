@@ -7,7 +7,7 @@ tags:
 ---
 ## 关于我
 
-这里是雪落的小屋，平时按个人喜好写一些东西。
+这里是那年雪落，平时按个人喜好写一些东西。
 
 烟火人间是取自于老舍的作品集，我也希望像老舍先生一样，通过我自己的方式描绘当下的社会，生活趣事，或是生活见闻、人生哲思。
 
@@ -23,7 +23,9 @@ DARLING in the FRANXX、Re：从零开始的异世界生活、Date A Live、名�
 
 ## 喜欢的游戏
 
-CSGO、Rainbow Six Siege、逆水寒、Code Vein、海市蜃楼之馆、Cry Star、PUBG、Battlefield 1、APEX、NieR:Automata™、VRChat、Yakuza Kiwami、Half-Life: Alyx、Gaokao.Love.100Days、SCP: Secret Laboratory
+~~CSGO、Rainbow Six Siege、逆水寒、Code Vein、海市蜃楼之馆、Cry Star、PUBG、Battlefield 1、APEX、NieR:Automata™、VRChat、Yakuza Kiwami、Half-Life: Alyx、Gaokao.Love.100Days、SCP: Secret Laboratory~~
+
+上了班了，玩不动了，就下班打打 CS2、LOL大乱斗、瓦洛兰特了。
 
 ## 装备
 
@@ -31,8 +33,7 @@ CSGO、Rainbow Six Siege、逆水寒、Code Vein、海市蜃楼之馆、Cry Star
 
 ## 工作
 
-暂时还没有呢
-
+深圳某公司的安卓系统工程师岗位
 ## 理想
 
 成为一个编程大佬~
