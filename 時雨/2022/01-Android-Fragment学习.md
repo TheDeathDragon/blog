@@ -17,10 +17,10 @@ Fragment 在 XML 中必须要有 `id` 或 `tag` ，例如：
 
 ```xml
 <androidx.fragment.app.FragmentContainerView
-                                             android:id="@+id/fragment_test"
-                                             android:name="com.example.learn_825.TestFragment"
-                                             android:layout_width="match_parent"
-                                             android:layout_height="match_parent" />
+      android:id="@+id/fragment_test"
+	  android:name="com.example.learn_825.TestFragment"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
 ```
 
 官方说明：
