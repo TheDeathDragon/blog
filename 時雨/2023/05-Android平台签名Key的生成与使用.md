@@ -74,11 +74,22 @@ keytool -importkeystore -srckeystore mtk.p12 -destkeystore mtk.jks -deststoretyp
 ```
 ## 生成 AVB_PUBKEY
 
-如果要进行GMS认证的话，最好还是把 avb的key一并替换了，
+如果要进行 GMS 认证的话，最好还是把 `avbkey` 一并替换了，
 
 替换完毕之后，还要手动测试一下：
 
-`run cts -m CtsAppSecurityHostTestCases -t android.appsecurity.cts.ApexSignatureVerificationTest#testApexPubKeyIsNotWellKnownKey`
+```bash
+run cts -m CtsAppSecurityHostTestCases -t android.appsecurity.cts.ApexSignatureVerificationTest#testApexPubKeyIsNotWellKnownKey
+```
+
+```bash
+development/tools/make_key com.android.runtime '/C=CN/ST=Shenzhen/L=BaoAn/O=Shiro/OU=Shiro/CN=Shiro/emailAddress=me@Shiro.La'
+
+openssl genrsa -out com.android.runtime.pem 4096
+avbtool extract_public_key --key com.android.runtime.pem --output com.android.runtime.avbpubkey
+```
+
+实际替换的全部的签名文件列表：
 
 ```bash
 bionic/apex/com.android.runtime.avbpubkey
@@ -105,13 +116,6 @@ packages/modules/RuntimeI18n/apex/com.android.i18n.avbpubkey
 packages/modules/RuntimeI18n/apex/com.android.i18n.pem
 packages/modules/RuntimeI18n/apex/com.android.i18n.pk8
 packages/modules/RuntimeI18n/apex/com.android.i18n.x509.pem
-```
-
-```bash
-development/tools/make_key com.android.runtime '/C=CN/ST=Shenzhen/L=BaoAn/O=Shiro/OU=Shiro/CN=Shiro/emailAddress=me@Shiro.La'
-
-openssl genrsa -out com.android.runtime.pem 4096
-avbtool extract_public_key --key com.android.runtime.pem --output com.android.runtime.avbpubkey
 ```
 ## 签名 Bat 脚本
 
