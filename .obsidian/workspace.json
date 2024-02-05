@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "512924c390a8fcae",
+    "type": "split",
+    "children": [
+      {
+        "id": "4314a8528d9dc96c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f57c57aea7e264b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "時雨/2024/03-家是永远的港湾.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44a78bf4177f7fde",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb164f04e4196ce8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "232a86910ea5a314",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e7fd153a4c37232",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "37e9f54c1e2cd8bc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7b31fb58b01a12b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5e8dc513807fd15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15700d9a77fea0cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "時雨/2024/03-家是永远的港湾.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4611c885169beeb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "時雨/2024/03-家是永远的港湾.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a1e7f524ab234435",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "242156c13f8a9781",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "時雨/2024/03-家是永远的港湾.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6f57c57aea7e264b",
+  "lastOpenFiles": [
+    "IMAGES/家是永远的港湾/简单的晚餐.webp",
+    "時雨/Inspiration/2024.md",
+    "時雨/2024/03-家是永远的港湾.md",
+    "時雨/2020/08-夜雨有感.md",
+    "時雨/2020/09-新装备！小米手环5.md",
+    "IMAGES/家是永远的港湾/妈咪在煮饺子.webp",
+    "IMAGES/家是永远的港湾/简单的早餐.webp",
+    "IMAGES/家是永远的港湾/家中书房.webp",
+    "IMAGES/家是永远的港湾",
+    "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
+    "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
+    "時雨/Inspiration/2020.md",
+    "時雨/Inspiration/2023.md",
+    "時雨/2023/05-Android平台签名Key的生成与使用.md",
+    "時雨/2023/04-Selinux权限以及neverallow编译报错.md",
+    "時雨/2023/03-Repo同步代码注意事项.md",
+    "時雨/2023/02-通过预置KernelSU到Android构建中来获取Root权限.md",
+    "時雨/2023/01-记一次OTA失败过程分析总结.md",
+    "時雨/2022/03-MakeFile基本语法学习.md",
+    "時雨/2022/02-Parcelable和Serializable的区别和比较.md",
+    "時雨/2022/01-Android-Fragment学习.md",
+    "時雨/2020/10-首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~.md",
+    "時雨/2020/07-Centos7上搭建属于自己的Teamspeak服务器.md",
+    "時雨/2020/06-通过haveged与rng-tools提高系统熵池的补充速率.md",
+    "時雨/2020/05-Centos7上部署属于自己的CSGO服务器.md",
+    "時雨/2020/04-Centos7上基于宝塔面板的NodeBB部署过程.md",
+    "時雨/2020/03-最近又重新打了一遍《空之轨迹》FC.md",
+    "時雨/2020/02-通过CSS来控制改变火狐浏览器的滚动条.md",
+    "時雨/2020/01-龙族中让人触动的句子.md",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/送的透光键帽.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/碧玺蓝轴.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/点亮的套件主板.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品3.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品2.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品1.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/套件外观.webp",
+    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~",
+    "IMAGES/通过CSS来控制改变火狐浏览器的滚动条",
+    "IMAGES/最近又重新打了一遍《空之轨迹》FC",
+    "IMAGES/新装备！小米手环5",
+    "IMAGES/夜雨有感"
+  ]
+}
