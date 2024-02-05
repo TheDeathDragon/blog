@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md",
-                "mode": "preview",
+                "file": "時雨/Inspiration/2024.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md",
+                "file": "時雨/Inspiration/2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md",
+                "file": "時雨/Inspiration/2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md"
+                "file": "時雨/Inspiration/2024.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "6f57c57aea7e264b",
   "lastOpenFiles": [
+    "時雨/Inspiration/2023.md",
+    "時雨/2024/03-家是永远的港湾.md",
     "IMAGES/家是永远的港湾/简单的晚餐.webp",
     "時雨/Inspiration/2024.md",
-    "時雨/2024/03-家是永远的港湾.md",
     "時雨/2020/08-夜雨有感.md",
     "時雨/2020/09-新装备！小米手环5.md",
     "IMAGES/家是永远的港湾/妈咪在煮饺子.webp",
@@ -160,7 +161,6 @@
     "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
     "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
     "時雨/Inspiration/2020.md",
-    "時雨/Inspiration/2023.md",
     "時雨/2023/05-Android平台签名Key的生成与使用.md",
     "時雨/2023/04-Selinux权限以及neverallow编译报错.md",
     "時雨/2023/03-Repo同步代码注意事项.md",
@@ -183,7 +183,6 @@
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品3.webp",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品2.webp",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品1.webp",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/套件外观.webp",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~",
     "IMAGES/通过CSS来控制改变火狐浏览器的滚动条",
     "IMAGES/最近又重新打了一遍《空之轨迹》FC",
