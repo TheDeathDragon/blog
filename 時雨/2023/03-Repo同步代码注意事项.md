@@ -46,7 +46,7 @@ repo forall -cp "git log --oneline -1"
 
 ## 同步遇到的问题
 
-`fatal: this operation must be run in a work tree
+`fatal: this operation must be run in a work tree`
 
 这种情况一般是网络问题导致sync中断出现的
 

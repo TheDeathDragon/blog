@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md",
-                "mode": "source",
+                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fatal: this operation must be run in a work tree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md",
+                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md",
+                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "時雨/2024/03-家是永远的港湾.md"
+                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md"
               }
             }
           }
@@ -148,9 +148,18 @@
   },
   "active": "6f57c57aea7e264b",
   "lastOpenFiles": [
+    "時雨/2024/03-家是永远的港湾.md",
+    "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
+    "時雨/2024/04-配置GPG签名来进行Git操作.md",
+    "時雨/2023/05-Android平台签名Key的生成与使用.md",
+    "時雨/2023/04-Selinux权限以及neverallow编译报错.md",
+    "時雨/2023/03-Repo同步代码注意事项.md",
+    "時雨/2023/02-通过预置KernelSU到Android构建中来获取Root权限.md",
+    "時雨/2023/01-记一次OTA失败过程分析总结.md",
+    "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
+    "時雨/About/about.md",
     "時雨/Inspiration/2024.md",
     "時雨/Inspiration/2023.md",
-    "時雨/2024/03-家是永远的港湾.md",
     "IMAGES/家是永远的港湾/简单的晚餐.webp",
     "時雨/2020/08-夜雨有感.md",
     "時雨/2020/09-新装备！小米手环5.md",
@@ -158,14 +167,7 @@
     "IMAGES/家是永远的港湾/简单的早餐.webp",
     "IMAGES/家是永远的港湾/家中书房.webp",
     "IMAGES/家是永远的港湾",
-    "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
-    "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
     "時雨/Inspiration/2020.md",
-    "時雨/2023/05-Android平台签名Key的生成与使用.md",
-    "時雨/2023/04-Selinux权限以及neverallow编译报错.md",
-    "時雨/2023/03-Repo同步代码注意事项.md",
-    "時雨/2023/02-通过预置KernelSU到Android构建中来获取Root权限.md",
-    "時雨/2023/01-记一次OTA失败过程分析总结.md",
     "時雨/2022/03-MakeFile基本语法学习.md",
     "時雨/2022/02-Parcelable和Serializable的区别和比较.md",
     "時雨/2022/01-Android-Fragment学习.md",
