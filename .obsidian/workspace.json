@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md",
-                "mode": "preview",
+                "file": "時雨/2025/01-adb-pull输出信息为什么跑到了stderr？.md",
+                "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "01-adb-pull输出信息为什么跑到了stderr？"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md",
+                "file": "時雨/Inspiration/2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "2024 的反向链接列表"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md",
+                "file": "時雨/Inspiration/2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "2024 的出链列表"
             }
           },
           {
@@ -116,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -125,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "時雨/2024/04-配置GPG签名来进行Git操作.md"
-              }
+                "file": "時雨/Inspiration/2024.md"
+              },
+              "icon": "lucide-list",
+              "title": "2024 的大纲"
             }
           }
         ]
@@ -146,19 +163,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6f57c57aea7e264b",
+  "active": "232a86910ea5a314",
   "lastOpenFiles": [
+    "時雨/2024/04-配置GPG签名来进行Git操作.md",
+    "時雨/2025/01-adb-pull输出信息为什么跑到了stderr？.md",
+    "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
+    "時雨/Inspiration/2024.md",
+    "時雨/2025",
+    "時雨/Inspiration/2020.md",
     "時雨/2024/03-家是永远的港湾.md",
     "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
-    "時雨/2024/04-配置GPG签名来进行Git操作.md",
     "時雨/2023/05-Android平台签名Key的生成与使用.md",
     "時雨/2023/04-Selinux权限以及neverallow编译报错.md",
     "時雨/2023/03-Repo同步代码注意事项.md",
     "時雨/2023/02-通过预置KernelSU到Android构建中来获取Root权限.md",
     "時雨/2023/01-记一次OTA失败过程分析总结.md",
-    "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
     "時雨/About/about.md",
-    "時雨/Inspiration/2024.md",
     "時雨/Inspiration/2023.md",
     "IMAGES/家是永远的港湾/简单的晚餐.webp",
     "時雨/2020/08-夜雨有感.md",
@@ -167,7 +187,6 @@
     "IMAGES/家是永远的港湾/简单的早餐.webp",
     "IMAGES/家是永远的港湾/家中书房.webp",
     "IMAGES/家是永远的港湾",
-    "時雨/Inspiration/2020.md",
     "時雨/2022/03-MakeFile基本语法学习.md",
     "時雨/2022/02-Parcelable和Serializable的区别和比较.md",
     "時雨/2022/01-Android-Fragment学习.md",
@@ -178,7 +197,6 @@
     "時雨/2020/04-Centos7上基于宝塔面板的NodeBB部署过程.md",
     "時雨/2020/03-最近又重新打了一遍《空之轨迹》FC.md",
     "時雨/2020/02-通过CSS来控制改变火狐浏览器的滚动条.md",
-    "時雨/2020/01-龙族中让人触动的句子.md",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/送的透光键帽.webp",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/碧玺蓝轴.webp",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/点亮的套件主板.webp",
