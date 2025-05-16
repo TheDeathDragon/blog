@@ -42,7 +42,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 然后把 `MtkSettings.zip` 复制到自己电脑上的一个地方，注意不要有中文路径，
 
-接着在文件夹里面搜索带有 `gradle` 的文件，全部删掉，这一步很重要！！！ 
+接着在文件夹里面搜索带有 `gradle` 的文件，全部删掉，这一步很重要！！！
 
 然后直接使用 AS 打开这个目录，等待项目索引完毕
 
@@ -58,7 +58,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 找到 SDK 的目录，查看 SDK 中 `android.jar` 是在哪里，后面使用去掉 `@hidden` 的 `android.jar` 替换掉，
 
-这个文件可以去 https://github.com/Reginer/aosp-android-jar 的 release 下载，如果没有翻墙也可以找我要
+这个文件可以去 <https://github.com/Reginer/aosp-android-jar> 的 release 下载，如果没有翻墙也可以找我要
 
 比如说我自己电脑上的路径是 `C:\Users\用户名\AppData\Local\Android\Sdk\platforms\android-34\`
 
@@ -117,6 +117,7 @@ zip -r MtkSettings.zip MtkSettings/
 ![image-20240606143824306](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143824306.webp)
 
 准备好库文件之后，我们只要返回 AS 进行库的导入操作即可
+
 ### 添加 R 文件依赖
 
 只是导入 `android.jar` 的话，应用本身的资源文件还是会爆红的
@@ -199,4 +200,3 @@ echo "Please check the jar files in ./libs"
 echo "Done"
 echo
 ```
-

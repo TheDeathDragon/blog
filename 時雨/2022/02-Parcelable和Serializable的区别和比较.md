@@ -15,7 +15,7 @@ tags:
 
 `Serializable` 是 Java 的实现方式，可能会频繁的IO操作，所以消耗比较大，但是实现方式简单。
 
-`Parcelable` 是 `Android` 提供的方式，效率比较高，但是实现起来复杂一些 ， 
+`Parcelable` 是 `Android` 提供的方式，效率比较高，但是实现起来复杂一些 ，
 
 二者的选取规则是：
 

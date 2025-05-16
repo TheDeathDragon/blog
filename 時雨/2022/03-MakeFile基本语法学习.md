@@ -56,7 +56,7 @@ buff = xiaoming
 name = $(xiaoming)
 buff = lisa
 print:
-	echo name:$(name)
+ echo name:$(name)
 ```
 
 被 `:=` 赋值的变量，值保持不变；
@@ -104,7 +104,7 @@ $(subst <from>, <to>, <text>)
 $(subst aaa, AAA, 3a transform 3A aaa)
 ```
 
-将字符串 `3a transform 3A aaa ` 中的 `aaa` 替换为 `AAA` 即：`3a transform 3A AAA`
+将字符串 `3a transform 3A aaa` 中的 `aaa` 替换为 `AAA` 即：`3a transform 3A AAA`
 
 2、函数 `patsubst`：完成模式字符串替换；
 
@@ -146,7 +146,7 @@ $(notdir <src/a.c>)
 
 因为在 `Makefile` 里，变量实质上就是 C/C++ 中的宏，
 
-也就是说，如果一个表达式如 `objs = *.o` ，则 `objs` 的值就是 `*.o` ，而不是表示所有的` .o` 文件。
+也就是说，如果一个表达式如 `objs = *.o` ，则 `objs` 的值就是 `*.o` ，而不是表示所有的`.o` 文件。
 
 若果要使用通配符，那么就要使用 `wildcard` 来声明 `*` 这个符号，使 `*`  符号具有通配符的功能。
 
@@ -177,9 +177,9 @@ $(foreach dir, $(SRCDIRS), $(wildcard $(dir) / *.c))
 
 ```makefile
 main.bin:a.o b.o c.o
-	arm-linux-gnueabihf-ld  -Txxx.lds -o main.elf a.o b.o c.o
-	arm-linux-gnueabihf-objcopy -o binary -s -g main.elf main.bin
-	arm-linux-gnueabihf-objdump -D main.elf > main.dis
+ arm-linux-gnueabihf-ld  -Txxx.lds -o main.elf a.o b.o c.o
+ arm-linux-gnueabihf-objcopy -o binary -s -g main.elf main.bin
+ arm-linux-gnueabihf-objdump -D main.elf > main.dis
  
 a.o : a.c
     arm-linux-gnueabihf-gcc -c a.c -o a.o
@@ -189,7 +189,7 @@ c.o : c.s
     arm-linux-gnueabihf-gcc -c c.s -o c.o
  
 clean:
-	rm -rf *.o main.bin main.elf main.dis
+ rm -rf *.o main.bin main.elf main.dis
 ```
 
 2、替换为自动变量和规则模式
@@ -198,15 +198,15 @@ clean:
 objs := a.o b.o c.o
  
 main.bin:$(objs)
-	arm-linux-gnueabihf-ld  -Txxx.lds  -o main.elf $^               /*(1)*/
-	arm-linux-gnueabihf-objcopy -o binary -s -g main.elf $@         /*(2)*/
-	arm-linux-gnueabihf-objdump -D main.elf > main.dis              
+ arm-linux-gnueabihf-ld  -Txxx.lds  -o main.elf $^               /*(1)*/
+ arm-linux-gnueabihf-objcopy -o binary -s -g main.elf $@         /*(2)*/
+ arm-linux-gnueabihf-objdump -D main.elf > main.dis              
 %.o : %.c
     arm-linux-gnueabihf-gcc -c $< -o $@                             /*(3)*/
 %.o : %.s
     arm-linux-gnueabihf-gcc -c $< -o $@ 
 clean:
-	rm -rf *.o main.bin main.elf main.dis
+ rm -rf *.o main.bin main.elf main.dis
 ```
 
 （1）`$^：a.o b.o c.o`
@@ -293,7 +293,7 @@ clean:
 
 将字符串目录前加 `-I` ，`Makefile` 语法要求头文件目录需加 `-I`
 
-（2）：`CFILES := dira/a.c dirb/b.c `
+（2）：`CFILES := dira/a.c dirb/b.c`
 
 将 `SRCDIRS` 各个目录下的 `c` 文件提取出来
 

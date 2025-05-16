@@ -18,7 +18,7 @@ Fragment 在 XML 中必须要有 `id` 或 `tag` ，例如：
 ```xml
 <androidx.fragment.app.FragmentContainerView
       android:id="@+id/fragment_test"
-	  android:name="com.example.learn_825.TestFragment"
+   android:name="com.example.learn_825.TestFragment"
       android:layout_width="match_parent"
       android:layout_height="match_parent" />
 ```
@@ -81,27 +81,27 @@ Toast.makeText(getContext(), "收到Bundle的信息：" + message, Toast.LENGTH_
 
 ```mermaid
 graph LR;
-	onCreate["onCreate()"] --> onCreateView["onCreateView()"] --> onActivityCreated["onActivityCreated()"] --> onStart["onStart()"] --> onResume["onResume()"];
-	
+ onCreate["onCreate()"] --> onCreateView["onCreateView()"] --> onActivityCreated["onActivityCreated()"] --> onStart["onStart()"] --> onResume["onResume()"];
+ 
 ```
 
 2、按下Home键
 
 ```mermaid
 graph LR;
-	onPause["onPause()"] --> onStop["onStop()"];
+ onPause["onPause()"] --> onStop["onStop()"];
 ```
 
 3、重新打开界面
 
 ```mermaid
 graph LR;
-	onStart["onStart()"] --> onResume["onResume()"];
+ onStart["onStart()"] --> onResume["onResume()"];
 ```
 
 4、按后退键
 
 ```mermaid
 graph LR;
-	onPause["onPause()"] --> onStop["onStop()"] --> onDestoryView["onDestoryView()"] --> onDestory["onDestory()"] --> onDetach["onDetach()"]
+ onPause["onPause()"] --> onStop["onStop()"] --> onDestoryView["onDestoryView()"] --> onDestory["onDestory()"] --> onDetach["onDetach()"]
 ```

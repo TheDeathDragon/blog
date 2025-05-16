@@ -130,7 +130,7 @@ cat out\target\product\k62v1_64_bsp\vendor\etc\fstab.mt6765
 /dev/block/by-name/para /misc emmc defaults defaults
 ```
 
-所以 `static_path` 是这里拿的路径，前缀是 `/dev/block/by-name/` 
+所以 `static_path` 是这里拿的路径，前缀是 `/dev/block/by-name/`
 
 所以当 OTA 升级走到 `preloader` 的时候，就找不到这个路径
 

@@ -16,6 +16,7 @@ tags:
 # 如果没有密钥可以先创建一个，有就直接用现有的
 openssl genpkey -algorithm RSA -out key_rsa2048.pem -aes256
 ```
+
 ## 手动根据私钥生成 X509 和 PK8 密钥
 
 ```bash
@@ -24,6 +25,7 @@ openssl pkcs8 -topk8 -inform PEM -outform DER -in key_rsa2048.pem -out platform.
 # 直接回车就好
 openssl req -key key_rsa2048.pem -new -x509 -out platform.x509.pem
 ```
+
 ## 通过平台脚本生成 PEM
 
 ```bash
@@ -62,6 +64,7 @@ keytool -list -v -keystore .keystore
 
 mv .keystore testkey.keystore
 ```
+
 ## 把 Keystore 转换成 Jks
 
 ```bash
@@ -72,6 +75,7 @@ keytool -importkeystore -srckeystore platform.p12 -destkeystore platform.jks -de
 keytool -importkeystore -srckeystore mtk.keystore -destkeystore mtk.p12 -deststoretype PKCS12
 keytool -importkeystore -srckeystore mtk.p12 -destkeystore mtk.jks -deststoretype pkcs12
 ```
+
 ## 生成 AVB_PUBKEY
 
 如果要进行 GMS 认证的话，最好还是把 `avbkey` 一并替换了，
@@ -117,6 +121,7 @@ packages/modules/RuntimeI18n/apex/com.android.i18n.pem
 packages/modules/RuntimeI18n/apex/com.android.i18n.pk8
 packages/modules/RuntimeI18n/apex/com.android.i18n.x509.pem
 ```
+
 ## 签名 Bat 脚本
 
 需要把 `zipalign.exe` 和 `apksigner.jar` 放到同一目录下，
@@ -154,39 +159,39 @@ Set SIGNED_FILE="%FILE_PATH%.signed.apk"
 
 
 If %~x1==.apk (
-	echo  apk file name check
-	echo   - %CLASSPATH%
-	echo  apk zipalign
-	zipalign -f -v 4 "%CLASSPATH%" "%ZIPALIGNED_PATH%"
-	echo.
-	echo.
-	Echo  apk zipalign signer
-	echo   - %ZIPALIGNED_PATH%
-	echo.
-	echo.
-	echo  apk signing
-	echo.
-	echo.
-	java -jar %APKSIGNER_PATH% sign -v --out "%SIGNED_FILE%" --ks %KeyStorePath% --ks-pass pass:%STORE_PASS% --key-pass pass:%KEY_PASS% --ks-key-alias %ALIAS_NAME% "%ZIPALIGNED_PATH%" 
-	Color 0C
-	echo.
-	echo.
-	echo.
-	echo  please check the console output
-	Echo  if the console output has no error, the signature is successful
-	Pause>nul
-	Color 3f
-	echo.
-	echo.
-	Echo  verify signature
-	echo   - %SIGNED_FILE%
-	echo.
-	java -jar %APKSIGNER_PATH% verify -v --print-certs "%SIGNED_FILE%" | more
-	echo.
-	echo.
-	echo  apk signing completed
-	Pause>nul
-	exit
+ echo  apk file name check
+ echo   - %CLASSPATH%
+ echo  apk zipalign
+ zipalign -f -v 4 "%CLASSPATH%" "%ZIPALIGNED_PATH%"
+ echo.
+ echo.
+ Echo  apk zipalign signer
+ echo   - %ZIPALIGNED_PATH%
+ echo.
+ echo.
+ echo  apk signing
+ echo.
+ echo.
+ java -jar %APKSIGNER_PATH% sign -v --out "%SIGNED_FILE%" --ks %KeyStorePath% --ks-pass pass:%STORE_PASS% --key-pass pass:%KEY_PASS% --ks-key-alias %ALIAS_NAME% "%ZIPALIGNED_PATH%" 
+ Color 0C
+ echo.
+ echo.
+ echo.
+ echo  please check the console output
+ Echo  if the console output has no error, the signature is successful
+ Pause>nul
+ Color 3f
+ echo.
+ echo.
+ Echo  verify signature
+ echo   - %SIGNED_FILE%
+ echo.
+ java -jar %APKSIGNER_PATH% verify -v --print-certs "%SIGNED_FILE%" | more
+ echo.
+ echo.
+ echo  apk signing completed
+ Pause>nul
+ exit
 )
 
 echo  not a valid apk file

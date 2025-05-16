@@ -75,6 +75,7 @@ brotli_window 512k;
 PS：后面发现宝塔更新了，可以直接在安装 Nginx 的时候编译模块。
 
 ![[IMAGES/Nginx-编译启用谷歌-Brotli-高级压缩算法/宝塔编译Nginx-Brotli.webp]]
+
 ## 验证
 
 假设当我们已经全局启用了 Brotli 算法，

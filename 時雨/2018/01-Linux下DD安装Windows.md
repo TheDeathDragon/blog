@@ -18,7 +18,7 @@ tags:
 
 ### 准备安装所需的环境
 
-**1、安装 gawk sed grep**
+1、安装 gawk sed grep
 
 ```bash
 #Debian/Ubuntu:
@@ -36,7 +36,7 @@ apt-get update
 yum update
 ```
 
-**2、无DHCP时额外需求：iconv**
+2、无DHCP时额外需求：iconv
 
 ```bash
 #Debian/Ubuntu
@@ -44,11 +44,12 @@ yum update
 #RedHat/CentOS
 yum install glibc-common
 ```
+
 ### 准备一个DD包的直链
 
 收集了一些现成的DD包，当然喜欢折腾也可以自己打包制作。
 
-**1、Lolico**
+1、Lolico
 
 ```bash
 # Windows server 2008 R2 Standard 中文版
@@ -61,7 +62,7 @@ http://nico-ni.co/dd/Win2008R2Standard-x64.gz
 # Password: lolico.moe123
 ```
 
-**2、萌咖**
+2、萌咖
 
 ```bash
 # Windows 7 Embedded Standard x86 (Thin PC)
@@ -74,7 +75,7 @@ https://moeclub.org/get-win8embx64-auto
 # Password: Vicer
 ```
 
-**3、Joodle**
+3、Joodle
 
 ```bash
 # Windows server 2008 R2
@@ -89,7 +90,7 @@ http://down.80host.com/iso/dd/Windows8.1-Joodle-Template.gz
 # Password: Password147
 ```
 
-**4、WhatUpTime**
+4、WhatUpTime
 
 ```bash
 # Windows 7 Enterprise x64
@@ -99,7 +100,7 @@ http://down.80host.com/iso/dd/7.ENT.EVAL.64.VIRTIO-SCSI.gz
 # Password: P@ssword64
 ```
 
-**5、80Host**
+5、80Host
 
 补充：有次续费80Host的机器，刚好碰上活动，80Host还寄了麻辣兔头给我，抽真空的包装。不过我是真的接收不了，所以给别人吃了。
 
@@ -117,7 +118,7 @@ http://down.80host.com/iso/dd/cn2003-virtio-pass-Linode.gz
 # Password: Linode
 ```
 
-**6、yxz**
+6、yxz
 
 ```bash
 # Windows server 2003 for Kimsufi
@@ -126,7 +127,7 @@ http://down.80host.com/iso/dd/Kimsufi2003.gz
 # Password: password!yxz.me
 ```
 
-**7、Laiboke**
+7、Laiboke
 
 ```bash
 # Windows server 2012 R2 中文版

@@ -45,17 +45,17 @@ build.gradle.kts
 ```kotlin
 // 加在 android 大括号里面
 applicationVariants.all {  
-	outputs.all {  
-		if (this is ApkVariantOutputImpl) {  
-			outputFileName = "SalesTracker.apk"  
-		}  
-	}  
+ outputs.all {  
+  if (this is ApkVariantOutputImpl) {  
+   outputFileName = "SalesTracker.apk"  
+  }  
+ }  
 }
 
 dependencies {  
-	implementation("androidx.core:core-ktx:1.10.1")  
-	implementation(files("/libs/nvram.jar"))  
-	compileOnly(files("/libs/framework.jar"))  
+ implementation("androidx.core:core-ktx:1.10.1")  
+ implementation(files("/libs/nvram.jar"))  
+ compileOnly(files("/libs/framework.jar"))  
 }
 ```
 
