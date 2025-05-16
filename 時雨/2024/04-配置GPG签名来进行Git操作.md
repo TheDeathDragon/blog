@@ -6,11 +6,11 @@ tags:
   - 代码管理
 ---
 
-`GPG Key` 可以让我们的 `commit` 安全性更上一层，并且在 `Github` 中会显示 `Verified` 标签，所以今天也来配置一下并使用。
+GPG Key 可以让我们的 `commit` 安全性更上一层，并且在 Github 中会显示 `Verified` 标签，所以今天也来配置一下并使用。
 
 ## 准备工作
 
-安装 `GPG` 工具 : [gpg4win](https://www.gpg4win.org)
+安装 GPG 工具 : [gpg4win](https://www.gpg4win.org)
 
 下载的时候会问要不要赞助，这边选择 0 美元就可以直接点击下载了，
 
@@ -18,13 +18,17 @@ tags:
 
 ## 创建密钥
 
-安装好 `GPG` 后，启动 `Kleopatra` 点击文件，新建 `OpenPGP` 密钥对，用户名和邮件最好还是按照 Github 的来填写。
+安装好 GPG 后，启动 Kleopatra 点击文件，
+
+新建 OpenPGP 密钥对，用户名和邮件最好还是按照 Github 的来填写。
 
 ## 导出 GPG 公钥
 
-找到我们刚才创建的密钥，右键导出，把导出的文件里面的内容复制，这个就是公钥，
+找到我们刚才创建的密钥，右键导出，
 
-到这一步之后，我们要导出并添加 `GPG` 公钥到 `GitHub`，
+把导出的文件里面的内容复制，这个就是公钥，
+
+到这一步之后，我们要导出并添加 GPG 公钥到 GitHub，
 
 打开 `Github Settings`  网页 : [Github](https://github.com/settings/keys)
 
@@ -32,7 +36,7 @@ tags:
 
 ## 配置 Git 使用 GPG 签名
 
-打开终端，执行指令让 `Git` 和 `GPG` 关联起来，
+打开终端，执行指令让 `Git` 和 GPG 关联起来，
 
 `YOUR_KEY_ID` 可以在 `Github` 网页上看见，复制即可。
 
