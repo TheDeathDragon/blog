@@ -54,7 +54,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 首先点击进入项目结构菜单
 
-![image-20240606140507784](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606140507784.webp)
+![image-20240606140507784](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606140507784.webp)
 
 找到 SDK 的目录，查看 SDK 中 `android.jar` 是在哪里，后面使用去掉 `@hidden` 的 `android.jar` 替换掉，
 
@@ -62,7 +62,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 比如说我自己电脑上的路径是 `C:\Users\用户名\AppData\Local\Android\Sdk\platforms\android-34\`
 
-![image-20240606141455452](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606141455452.webp)
+![image-20240606141455452](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606141455452.webp)
 
 这个只要替换一次，后面其他项目就不用替换了
 
@@ -70,21 +70,21 @@ zip -r MtkSettings.zip MtkSettings/
 
 打开 `Libraries` 标签页
 
-![image-20240606141930696](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606141930696.webp)
+![image-20240606141930696](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606141930696.webp)
 
 点击 **+** 号 ，添加一个 `java` 库，为了保险起见，我们这里再次添加我们刚才替换用的 `android.jar`
 
-![image-20240606142026266](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142026266.webp)
+![image-20240606142026266](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142026266.webp)
 
 这个时候可能会弹出来，让我们选择添加这个库到哪个模块，
 
 我们按快捷键，`CTRL+A` 全选就好了，然后点 OK
 
-![image-20240606142506124](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142506124.webp)
+![image-20240606142506124](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142506124.webp)
 
 也可以批量添加库文件
 
-![image-20240606142651358](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142651358.webp)
+![image-20240606142651358](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142651358.webp)
 
 我后面会把常用的库都整理出来，
 
@@ -92,7 +92,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 例如我们的 `MtkSettings` 的目录中，是用的 `Android.bp` 来编译的，我们可以看到，使用了很多 `androidx` 的依赖
 
-![image-20240606142917020](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142917020.webp)
+![image-20240606142917020](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142917020.webp)
 
 这个些库文件应该去哪里找呢？
 
@@ -112,9 +112,9 @@ zip -r MtkSettings.zip MtkSettings/
 
 最好复制到自己电脑上的固定的一个地方，比如我就放在了 `D:\AospLibs`
 
-![image-20240606143724594](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143724594.webp)
+![image-20240606143724594](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143724594.webp)
 
-![image-20240606143824306](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143824306.webp)
+![image-20240606143824306](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143824306.webp)
 
 准备好库文件之后，我们只要返回 AS 进行库的导入操作即可
 
@@ -128,7 +128,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 这里说一下怎么去找，假如我们是 `MtkSettings` 我们去 Android.bp 里面看下资源文件是在哪个模块
 
-![image-20240606145213029](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145213029.webp)
+![image-20240606145213029](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145213029.webp)
 
 然后我们去 `out_sys_debug` 里面搜索一下 `MtkSettings-core`
 
@@ -149,7 +149,7 @@ find -name "*.jar" | grep turbine-combined | grep MtkSettings-core
 
 在 AS 里面写代码还是非常舒服的，就是一开始准备稍微麻烦一点
 
-![image-20240606145808177](IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145808177.webp)
+![image-20240606145808177](/IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145808177.webp)
 
 ## 提取 AAR 脚本
 
@@ -200,3 +200,5 @@ echo "Please check the jar files in ./libs"
 echo "Done"
 echo
 ```
+
+只需要运行一次导入即可。
