@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "時雨/2025/01-adb-pull输出信息为什么跑到了stderr？.md",
+                "file": "時雨/2025/02-展讯平台安卓15电池健康实现分析.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "01-adb-pull输出信息为什么跑到了stderr？"
+              "title": "02-展讯平台安卓15电池健康实现分析"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fatal: this operation must be run in a work tree",
+                "query": "wang",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,16 +163,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "232a86910ea5a314",
+  "active": "6f57c57aea7e264b",
   "lastOpenFiles": [
+    "時雨/2025/01-adb-pull输出信息为什么跑到了stderr.md",
+    "時雨/2024/05-使用AndroidStudio开发系统应用代码技巧.md",
     "時雨/2024/04-配置GPG签名来进行Git操作.md",
+    "時雨/2024/03-家是永远的港湾.md",
+    "時雨/2025/02-展讯平台安卓15电池健康实现分析.md",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145808177.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145213029.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606145149645.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143824306.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606143724594.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142917020.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142651358.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142506124.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606142026266.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧/image-20240606141930696.webp",
+    "IMAGES/使用AndroidStudio开发系统应用代码技巧",
+    "IMAGES/新建文件夹",
+    "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
     "時雨/2025/01-adb-pull输出信息为什么跑到了stderr？.md",
     "時雨/2024/01-Android中SharedPreference的apply与commit方法.md",
     "時雨/Inspiration/2024.md",
     "時雨/2025",
     "時雨/Inspiration/2020.md",
-    "時雨/2024/03-家是永远的港湾.md",
-    "時雨/2024/02-导入Framework到AndroidStudio中编译.md",
     "時雨/2023/05-Android平台签名Key的生成与使用.md",
     "時雨/2023/04-Selinux权限以及neverallow编译报错.md",
     "時雨/2023/03-Repo同步代码注意事项.md",
@@ -180,12 +195,8 @@
     "時雨/2023/01-记一次OTA失败过程分析总结.md",
     "時雨/About/about.md",
     "時雨/Inspiration/2023.md",
-    "IMAGES/家是永远的港湾/简单的晚餐.webp",
     "時雨/2020/08-夜雨有感.md",
     "時雨/2020/09-新装备！小米手环5.md",
-    "IMAGES/家是永远的港湾/妈咪在煮饺子.webp",
-    "IMAGES/家是永远的港湾/简单的早餐.webp",
-    "IMAGES/家是永远的港湾/家中书房.webp",
     "IMAGES/家是永远的港湾",
     "時雨/2022/03-MakeFile基本语法学习.md",
     "時雨/2022/02-Parcelable和Serializable的区别和比较.md",
@@ -193,16 +204,6 @@
     "時雨/2020/10-首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~.md",
     "時雨/2020/07-Centos7上搭建属于自己的Teamspeak服务器.md",
     "時雨/2020/06-通过haveged与rng-tools提高系统熵池的补充速率.md",
-    "時雨/2020/05-Centos7上部署属于自己的CSGO服务器.md",
-    "時雨/2020/04-Centos7上基于宝塔面板的NodeBB部署过程.md",
-    "時雨/2020/03-最近又重新打了一遍《空之轨迹》FC.md",
-    "時雨/2020/02-通过CSS来控制改变火狐浏览器的滚动条.md",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/送的透光键帽.webp",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/碧玺蓝轴.webp",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/点亮的套件主板.webp",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品3.webp",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品2.webp",
-    "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~/成品1.webp",
     "IMAGES/首次尝试！自己的第一副客制化键盘，双模、RGB、热插拔，真香~",
     "IMAGES/通过CSS来控制改变火狐浏览器的滚动条",
     "IMAGES/最近又重新打了一遍《空之轨迹》FC",

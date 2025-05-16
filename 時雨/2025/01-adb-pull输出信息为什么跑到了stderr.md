@@ -1,17 +1,19 @@
 ---
-title: adb pull 输出信息为什么跑到了 stderr ?
-date: 2025-04-21 11:35:00  
-category: 学习笔记  
-tags:  
-  - Android  
-  - adb  
-  - C#  
-  - 编程小坑  
+title: adb-pull-输出信息为什么跑到了stderr
+date: 2025-04-21 11:35:00
+category: 学习笔记
+tags:
+  - Android
+  - adb
+  - CSharp
+  - 编程小坑
 ---
 
 今天用 C# 调 adb 执行 `adb pull`，导出功能正常，文件也拉下来了，但是走的是报错流程。
 
-打断点看了，问题出在输出：全打在 **stderr**，不是 **stdout**。
+然后开 Debug 打断点看了，
+
+发现问题出在输出：全打在 **stderr**，不是 **stdout**。
 
 查阅相关资料，有人给谷歌提了 issue ，谷歌回复：不是 bug，是设计。
 
