@@ -10,7 +10,7 @@ tags:
 
 ## 准备工作
 
-安装 `GPG` 工具 : <https://www.gpg4win.org>
+安装 `GPG` 工具 : [gpg4win](https://www.gpg4win.org)
 
 下载的时候会问要不要赞助，这边选择 0 美元就可以直接点击下载了，
 
@@ -26,7 +26,7 @@ tags:
 
 到这一步之后，我们要导出并添加 `GPG` 公钥到 `GitHub`，
 
-打开 `Github Settings`  网页 : <https://github.com/settings/keys>
+打开 `Github Settings`  网页 : [Github](https://github.com/settings/keys)
 
 找到 `GPG keys` ，新建一个粘贴进去即可。
 

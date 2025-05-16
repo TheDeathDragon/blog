@@ -99,7 +99,7 @@ location / {
     }
 ```
 
-别忘了改config.json里面的URL参数，一样的<http://你的域名:4567>
+别忘了改config.json里面的URL参数，一样的 [你的域名](http://你的域名:4567)
 
 到这里差不多就大功告成了
 

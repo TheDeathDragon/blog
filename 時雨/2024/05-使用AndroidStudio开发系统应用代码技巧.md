@@ -58,7 +58,7 @@ zip -r MtkSettings.zip MtkSettings/
 
 找到 SDK 的目录，查看 SDK 中 `android.jar` 是在哪里，后面使用去掉 `@hidden` 的 `android.jar` 替换掉，
 
-这个文件可以去 <https://github.com/Reginer/aosp-android-jar> 的 release 下载，如果没有翻墙也可以找我要
+这个文件可以去 [github.com/Reginer/aosp-android-jar](https://github.com/Reginer/aosp-android-jar) 的 release 下载
 
 比如说我自己电脑上的路径是 `C:\Users\用户名\AppData\Local\Android\Sdk\platforms\android-34\`
 

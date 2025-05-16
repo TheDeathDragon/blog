@@ -17,7 +17,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 因为国内对 github 连通性很差，建议直接下载下来
 
-下载KernelSu：<https://github.com/tiann/KernelSU>
+下载KernelSu：[KSU](https://github.com/tiann/KernelSU)
 
 下载好的文件解压缩到对应的kernel目录当中
 
@@ -40,13 +40,13 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 KernelSu 默认是不启用的，需要安装 KernelSu 的管理 APP 来对 Root 权限进行管理和授权
 
-APP 下载地址：<https://github.com/tiann/KernelSU/releases>
+APP 下载地址：[KSU](https://github.com/tiann/KernelSU/releases)
 
 当安装完 APP 之后，显示 Working 就说明已经编进去了，在 superuser 界面就可以进行授权操作了
 
 ## 安装其他模块
 
-推荐 Zygisk On KernelSu ：<https://github.com/Dr-TSNG/ZygiskNext>
+推荐 Zygisk On KernelSu ：[ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext>)
 
 其他的例如存储空间隔离，核心破解等模块也是实用方便的
 

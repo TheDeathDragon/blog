@@ -26,7 +26,7 @@ Centos7 下我个人习惯是用宝塔面板来管理服务器
 
 所以我们先装个宝塔面板先
 
-官网 ：<https://www.bt.cn/>
+官网 ：[宝塔面板](https://www.bt.cn/)
 
 然后安装完了面板，进去先改面板设置，怎么方便怎么来就是了，不过不推荐用默认的 `8888` 端口
 
@@ -46,7 +46,7 @@ systemctl disable firewalld.service
 
 之后你得有一个绑定了手机的 Steam 小号，用于生成 `GSLT` ，相当于开服的 `Key` ，为什么要用小号是因为以后加改皮肤模型的插件可能会被封
 
-网址：<https://steamcommunity.com/dev/managegameservers>
+网址：[Steam服务器管理](https://steamcommunity.com/dev/managegameservers)
 
 > GSLT creates a persistent token for a game server. This allows any users who added your server to favorites to join, even if you change your ip address. This is very useful if you change your server/hosting provider.
 
@@ -56,7 +56,7 @@ systemctl disable firewalld.service
 
 一般我们都是用 `LinuxGSM` 来管理众多游戏服务器， CSGO 是其中一个
 
-网址：<https://linuxgsm.com/lgsm/csgoserver/>
+网址：[lgsm](https://linuxgsm.com/lgsm/csgoserver/)
 
 直接上命令：
 
@@ -140,11 +140,11 @@ parms="-game csgo -usercon -strictportbind -ip ${ip} -port ${port} +clientport $
 
 然后服务器插件肯定是少不了的，得去
 
-<https://www.sourcemod.net/>
+[sourcemod](https://www.sourcemod.net)
 
 以及
 
-<http://www.metamodsource.net/>
+[metamodsource](https://www.metamodsource.net/)
 
 安装前置
 
@@ -152,7 +152,7 @@ parms="-game csgo -usercon -strictportbind -ip ${ip} -port ${port} +clientport $
 
 之后再去
 
-<https://www.sourcemod.net>
+[sourcemod](https://www.sourcemod.net)
 
 里面找插件，这个就得自己折腾了，坑太多不想写
 
